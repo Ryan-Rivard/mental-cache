@@ -38,4 +38,4 @@ sequenceDiagram
 ---
 ## 🔗 Connected Nodes
 - [[UDP]] *(The speed-focused alternative)*
-- [[HTTP Evolution]] *(Built on top of TCP up to version 2)*
+- [[HTTP Evolution|HTTP Evolution]] *(Built on top of TCP up to version 2)*

@@ -7,7 +7,7 @@ status: master-node
 
 # Domain Name System (DNS)
 
-DNS is the decentralized hierarchical naming system responsible for translating human-readable domain names (like `google.com`) into machine-readable [[ip-address|IP Addresses]] (like `142.250.190.46`).
+DNS is the decentralized hierarchical naming system responsible for translating human-readable domain names (like `google.com`) into machine-readable [[IP Address|IP Addresses]] (like `142.250.190.46`).
 
 ---
 
@@ -57,6 +57,6 @@ To prevent millions of repeated global network roundtrips, DNS responses are agg
 
 ---
 ## 🔗 Connected Nodes
-- [[ip-address]] *(The target destination data)*
+- [[IP Address]] *(The target destination data)*
 - [[Internet Fundamentals]] *(The master blueprint)*
-- [[udp]] *(The lightweight transport layer protocol DNS relies on)*
+- [[UDP]] *(The lightweight transport layer protocol DNS relies on)*

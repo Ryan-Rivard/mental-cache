@@ -10,7 +10,7 @@ status: clear
 The longest-running baseline version of the modern web.
 
 ## ⚙️ Core Architecture
-- **Persistent Connections**: Uses `Connection: keep-alive` headers to reuse a single TCP connection for multiple sequential requests.
+- **Persistent Connections**: Uses `Connection: keep-alive` headers to reuse a single [[TCP| TCP]]  connection for multiple sequential requests.
 - **Pipelining**: Allowed clients to send multiple requests down the pipe before receiving responses (though poorly supported by browsers).
 
 ## ⚠️ The Bottleneck: Application HOL Blocking

@@ -12,13 +12,17 @@ QUIC (Quick UDP Internet Connections) is a modern transport protocol developed t
 ---
 
 ## 🚀 Why QUIC Was Invented
-While [[TCP]] and [[HTTP 2.0]] allow multiple streams over one link, they suffer from **Transport-Layer Head-of-Line (HOL) Blocking**. If TCP loses a single packet, it pauses *every* parallel asset lane until retransmission occurs. QUIC runs over UDP to manage stream loss limits independently.
+While [[TCP]] and [[HTTP 2.0|HTTP 2.0]] allow multiple streams over one link, they suffer from **Transport-Layer Head-of-Line (HOL) Blocking**. If TCP loses a single packet, it pauses *every* parallel asset lane until retransmission occurs. QUIC runs over UDP to manage stream loss limits independently.
 
-```mermaid
-labels: Transport Architecture Comparison
-[TCP Connection: One dropped packet freezes the whole pipeline]
-[QUIC Stream: Dropped packet only slows down its own isolated asset stream]
-```
+> [!failure] 🐢 Classic TCP Architecture
+> - **Pipeline**: Uses a single shared connection lane.
+> - **Behavior**: One dropped packet pauses the *entire* connection stream.
+> - **Result**: **Severe Head-of-Line Blocking** (everything behind the dropped packet freezes).
+
+> [!success] 🚀 Modern QUIC Architecture
+> - **Pipeline**: Uses an independent multi-stream grid.
+> - **Behavior**: One dropped packet *only* pauses its own isolated lane.
+> - **Result**: **No Head-of-Line Blocking** (lanes 2, 3, and 4 keep downloading instantly).
 
 ---
 
@@ -39,4 +43,4 @@ labels: Transport Architecture Comparison
 ---
 ## 🔗 Connected Nodes
 - [[UDP]] *(The foundation layer)*
-- [[HTTP 3.0]] *(The web application tier using QUIC)*
+- [[HTTP 3.0|HTTP 3.0]] *(The web application tier using QUIC)*

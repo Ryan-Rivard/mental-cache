@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 Phase 1: Internet & General Knowledge
-- [ ] [[internet-fundamentals]] — Browsers, DNS, domain names, and hosting.
+- [ ] [[Internet Fundamentals]] — Browsers, DNS, domain names, and hosting.
 - [ ] [[http-and-https-protocols]] — Request/response lifecycle, status codes, and TLS.
 - [ ] [[how-browsers-work]] — Rendering engines, parsing, and request handling.
 
@@ -17,7 +17,7 @@
 
 ## 🗄️ Phase 3: Relational Databases
 - [ ] [[relational-database-concepts]] — ACID properties, normalization, and joins.
-- [ ] [[postresql]] — Advanced querying, schema design, and execution plans.
+- [ ] [[PostgreSQL]] — Advanced querying, schema design, and execution plans.
 - [ ] [[database-indexing]] — B-Trees, performance optimization, and scan types.
 
 ## 🔌 Phase 4: APIs & Web Security

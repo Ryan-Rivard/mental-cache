@@ -27,9 +27,9 @@ UDP is a lightweight, connectionless Transport Layer protocol optimized for maxi
 
 ## 🎯 Ideal Use Cases
 - **Real-Time Streaming**: Voice over IP (VoIP), live video conferencing, and online multi-player video games where speed matters more than absolute pixel perfect accuracy.
-- **Fast, One-Shot Lookups**: Network micro-transactions like [[DNS (Domain Name System)]] or DHCP.
+- **Fast, One-Shot Lookups**: Network micro-transactions like [[DNS|DNS (Domain Name System)]] or DHCP.
 
 ---
 ## 🔗 Connected Nodes
 - [[TCP]] *(The connection-oriented counterpart)*
-- [[QUIC Protocol]] *(The modern extension of UDP)*
+- [[QUIC|QUIC Protocol]] *(The modern extension of UDP)*

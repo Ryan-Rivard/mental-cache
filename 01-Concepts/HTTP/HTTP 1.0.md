@@ -10,7 +10,7 @@ status: clear
 The foundational implementation of the modern web protocol. 
 
 ## ⚙️ Core Architecture
-- **Short-Lived Connections**: Every asset exchange required opening a completely fresh TCP connection connection.
+- **Short-Lived Connections**: Every asset exchange required opening a completely fresh [[TCP| TCP]]  connection connection.
 - **Cycle**: Client Connection ➡️ Request ➡️ Response ➡️ Connection Closed.
 
 ## ⚠️ The Bottleneck

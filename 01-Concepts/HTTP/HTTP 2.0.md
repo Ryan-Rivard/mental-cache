@@ -11,7 +11,7 @@ A major rewrite focused heavily on frontend asset load performance.
 
 ## ⚙️ Core Architecture
 - **Binary Framing Layer**: Converts plain text commands into compact binary data frames.
-- **Multiplexing**: Interleaves requests and responses simultaneously down a **single** active TCP connection.
+- **Multiplexing**: Interleaves requests and responses simultaneously down a **single** active [[TCP| TCP]]  connection.
 - **Header Compression (HPACK)**: Shrank redundant metadata sizes to save bandwidth.
 
 ## ⚠️ The Bottleneck: Transport HOL Blocking

@@ -16,5 +16,5 @@ The modern standard designed for unreliable global wireless connections.
 
 ---
 ## 🔗 Related Advanced Concepts
-- [[QUIC Protocol]]
+- [[QUIC| QUIC Protocol]]
 - [[UDP]]

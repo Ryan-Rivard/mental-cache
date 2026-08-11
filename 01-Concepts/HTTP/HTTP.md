@@ -38,7 +38,7 @@ Returned by the server after computing the client's request. Key components insi
 ---
 
 ## 🔒 3. Evolution: HTTP vs HTTPS
-- [[http]]: Transmits data across the network in completely unencrypted clear text. Vulnerable to interception.
+- [[HTTP]]: Transmits data across the network in completely unencrypted clear text. Vulnerable to interception.
 - [[What is HTTPS]]: The secure extension of HTTP. It uses **SSL/TLS encryption** to encrypt the request and response channels, ensuring data privacy and preventing credential tampering.
 
 ---

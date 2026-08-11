@@ -37,5 +37,5 @@ An Internet Protocol (IP) address is a unique structural numerical identifier as
 
 ---
 ## 🔗 Connected Nodes
-- [[DNS (Domain Name System)]] *(The translator turning these numbers into names)*
-- [[Internet Fundamentals]] *(The broad master grid)*
+- [[DNS| DNS (Domain Name System)]] *(The translator turning these numbers into names)*
+- [[Internet Fundamentals| Internet Fundamentals]] *(The broad master grid)*
