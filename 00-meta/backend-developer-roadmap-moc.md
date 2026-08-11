@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 Phase 1: Internet & General Knowledge
-- [ ] [[how-the-internet-works]] — Browsers, DNS, domain names, and hosting.
+- [ ] [[internet-fundamentals]] — Browsers, DNS, domain names, and hosting.
 - [ ] [[http-and-https-protocols]] — Request/response lifecycle, status codes, and TLS.
 - [ ] [[how-browsers-work]] — Rendering engines, parsing, and request handling.
 
