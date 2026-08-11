@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a3f01e5300cbc0f",
+        "id": "2cfa8427de075b53",
         "type": "tabs",
         "children": [
           {
-            "id": "6773f5589675c728",
+            "id": "90d90a5113f70bb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roles/backend-dev/04-version-conrol-systems.md",
+                "file": "04-sources/book-100-mistakes-in-golang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-version-conrol-systems"
+              "title": "book-100-mistakes-in-golang"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "3277fcd780b2e08a",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roles/backend-dev/04-version-conrol-systems.md",
+                "file": "04-sources/book-100-mistakes-in-golang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roles/backend-dev/04-version-conrol-systems.md",
+                "file": "04-sources/book-100-mistakes-in-golang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roles/backend-dev/04-version-conrol-systems.md",
+                "file": "04-sources/book-100-mistakes-in-golang.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,9 +188,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "6773f5589675c728",
+  "active": "90d90a5113f70bb4",
   "lastOpenFiles": [
+    "backend-roadmap-moc.md",
+    "04-sources/book-100-mistakes-in-golang.md",
+    "ai-engineering-moc.md",
+    "03-projects/chat-application/chat-application-project.md",
+    "00-meta/backend-developer-roadmap-moc.md",
+    "03-projects/chat-application",
+    "03-projects/chat-application.md",
+    "postgresql.md",
+    "02-tools/postresql.md",
+    "01-concepts/how-the-internet-works.md",
+    "00-meta/ai-engineer-roadmap-moc.md",
+    "how-the-internet-works.md",
+    "00-meta/map-of-content",
+    "README.md",
+    "roles/backend-dev/02-frontend-basics.md",
+    "04-sources",
+    "03-projects",
+    "02-tools",
+    "01-concepts",
+    "00-meta",
+    "languages/html/html.md",
+    "html.md",
+    "roles/backend-dev/03-backend-language.md",
     "roles/backend-dev/01-introduction.md",
-    "languages/html/01-introduction.md"
+    "languages/html/01-introduction.md",
+    "roles/backend-dev/04-version-conrol-systems.md"
   ]
 }
